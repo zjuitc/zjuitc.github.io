@@ -2,39 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on zjuitc&#39;s sec blog</title>
-    <link>/post/</link>
+    <link>https://zjuitc.github.io/post/</link>
     <description>Recent content in Posts on zjuitc&#39;s sec blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zjuitc.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello R Markdown</title>
-      <link>/2020/12/01/hello-r-markdown/</link>
+      <title>BERT在NLP中的几个框架</title>
+      <link>https://zjuitc.github.io/2021/02/07/bert-nlp/</link>
+      <pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zjuitc.github.io/2021/02/07/bert-nlp/</guid>
+      <description>BERT在NLP中的几个框架 近期调研发现，有几个优秀的使用了BERT的NLP框架
+它们是：
+fasthan fastHan是基于fastNLP与pytorch实现的中文自然语言处理工具，像spacy一样调用方便。
+其内核为基于BERT的联合模型，其在13个语料库中进行训练，可处理中文分词、词性标注、依存分析、命名实体识别四项任务。fastHan共有base与large两个版本，分别利用BERT的前四层与前八层。base版本在总参数量150MB的情况下各项任务均有不错表现，large版本则接近甚至超越SOTA模型。
+hanlp hanlp是面向生产环境的多语种自然语言处理工具包，基于PyTorch和TensorFlow 2.x双引擎，目标是普及落地最前沿的NLP技术。HanLP具备功能完善、性能高效、架构清晰、语料时新、可自定义的特点。
+借助世界上最大的多语种语料库，HanLP2.1支持包括简繁中英日俄法德在内的104种语言上的10种联合任务：分词（粗分、细分2个标准，强制、合并、校正3种词典模式）、词性标注（PKU、863、CTB、UD四套词性规范）、命名实体识别（PKU、MSRA、OntoNotes三套规范）、依存句法分析（SD、UD规范）、成分句法分析、语义依存分析（SemEval16、DM、PAS、PSD四套规范）、语义角色标注、词干提取、词法语法特征提取、抽象意义表示（AMR）。
+量体裁衣，HanLP提供RESTful和native两种API，分别面向轻量级和海量级两种场景。无论何种API何种语言，HanLP接口在语义上保持一致，在代码上坚持开源。</description>
+    </item>
+    
+    <item>
+      <title>知识图谱</title>
+      <link>https://zjuitc.github.io/2021/01/07/knowledge-graph/</link>
+      <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zjuitc.github.io/2021/01/07/knowledge-graph/</guid>
+      <description>知识图谱 明代文学智慧平台 </description>
+    </item>
+    
+    <item>
+      <title>欢迎来到R的奇妙世界</title>
+      <link>https://zjuitc.github.io/2020/12/01/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0r%E7%9A%84%E5%A5%87%E5%A6%99%E4%B8%96%E7%95%8C/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
-      <guid>/2020/12/01/hello-r-markdown/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+      <guid>https://zjuitc.github.io/2020/12/01/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0r%E7%9A%84%E5%A5%87%E5%A6%99%E4%B8%96%E7%95%8C/</guid>
+      <description>用R做RR MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
     </item>
     
     <item>
-      <title>A Plain Markdown Post</title>
-      <link>/2016/12/30/a-plain-markdown-post/</link>
-      <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
+      <title>地理信息可视化</title>
+      <link>https://zjuitc.github.io/2019/12/30/%E5%9C%B0%E7%90%86%E4%BF%A1%E6%81%AF%E5%8F%AF%E8%A7%86%E5%8C%96/</link>
+      <pubDate>Mon, 30 Dec 2019 21:49:57 -0700</pubDate>
       
-      <guid>/2016/12/30/a-plain-markdown-post/</guid>
-      <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
- You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.</description>
+      <guid>https://zjuitc.github.io/2019/12/30/%E5%9C%B0%E7%90%86%E4%BF%A1%E6%81%AF%E5%8F%AF%E8%A7%86%E5%8C%96/</guid>
+      <description>关于点信息的可视化 关于线信息的可视化 时空可视化 </description>
     </item>
     
     <item>
-      <title>Lorem Ipsum</title>
-      <link>/2015/01/01/lorem-ipsum/</link>
-      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
+      <title>社会关系可视化</title>
+      <link>https://zjuitc.github.io/2018/09/07/%E7%A4%BE%E4%BC%9A%E5%85%B3%E7%B3%BB%E5%8F%AF%E8%A7%86%E5%8C%96/</link>
+      <pubDate>Fri, 07 Sep 2018 13:09:13 -0600</pubDate>
       
-      <guid>/2015/01/01/lorem-ipsum/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+      <guid>https://zjuitc.github.io/2018/09/07/%E7%A4%BE%E4%BC%9A%E5%85%B3%E7%B3%BB%E5%8F%AF%E8%A7%86%E5%8C%96/</guid>
+      <description>社会关系网络 是用图描绘人与人之前关系的 模型。 本文使用CBDB的数据来绘制交会关系网络。</description>
     </item>
     
   </channel>
